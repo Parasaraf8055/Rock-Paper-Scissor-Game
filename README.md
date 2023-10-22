@@ -1,17 +1,17 @@
 # Rock-Paper-Scissor-Game
 java language base rock paper scissor game by using random function of java 
 <br>
-import java.util.Scanner;
-import java.util.Random;
+import java.util.Scanner;<br>
+import java.util.Random;<br>
 
-public class Rock_paper_scissor {
-    public static void main(String[] args) {
-        int user, computer, rock, paper, scissor, rounds = 5;
-        Scanner sc = new Scanner(System.in);
-        Random random = new Random();
-        rock = 0;
-        paper = 1;
-        scissor = 2;
+public class Rock_paper_scissor {<br>
+    public static void main(String[] args) {<br>
+        int user, computer, rock, paper, scissor, rounds = 5;<br>
+        Scanner sc = new Scanner(System.in);<br>
+        Random random = new Random();<br>
+        rock = 0;<br>
+        paper = 1;<br>
+        scissor = 2;<br>
 
         System.out.println("********ROCK_PAPER_SCISSOR_GAME********\n\n");
 
